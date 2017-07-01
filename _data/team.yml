@@ -1,27 +1,35 @@
 - name: 陈静静
   image: chjj.png
-  info: 东京大学访问学者
+  email: 上海浦东教育发展研究院
+  phone: 东京大学访问学者
 
 - name: 黄建初
   image: hjc.png
-  info: 东京大学访问学者
+  email: 上海教育科研教师培训工作室
+  phone: 上海市特级教师
 
 - name: 郑朝晖
   image: zhch.png
-  info: 东京大学访问学者
+  email: 上海建平实验中学副校长
+  phone: 上海市特级教师
 
 - name: 郑艳红
   image: zhenyh.png
-  info: 东京大学访问学者
+  email: 上海市班主任工作室带头人
+  phone: 中学高级教师
 
 - name: 王晓叶
-  image: chjj.png
-  info: 东京大学访问学者
+  image: wxy.png
+  email: 六灶中学
+  phone: 待补充
 
 - name: 程春雨
-  image: chjj.png
-  info: 东京大学访问学者
+  image: chchjj.png
+  email: 建平实验中学教师
+  phone: 待补充
 
 - name: 杨海燕
-  image: chjj.png
-  info: 东京大学访问学者
+  image: yhy.png
+  email: 上海浦东教育发展研究院科研员
+  phone: 待补充
+  
