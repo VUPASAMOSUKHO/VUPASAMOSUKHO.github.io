@@ -1,9 +1,9 @@
 # Site settings
-title: 佐藤学学习共同体 | SLC IN CHINA
+title: 学习共同体联合会 | SLC IN CHINA
 description: "学习共同体理论研究与实践指导"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.ico
+logo_url: svg/min/logo.png
 keyword: "佐藤学, 学习共同体，School as learning community, Manabu Sato, 陈静静, 真爱梦想, 共同体, 静悄悄的革命, 教师花传书"
 
 
