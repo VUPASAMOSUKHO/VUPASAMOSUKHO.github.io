@@ -1,6 +1,7 @@
 - name: 陈静静
   image: chjj.png
   email: 上海浦东教育发展研究院
+  mail: chenjingjing@slc.education
   phone: 东京大学访问学者
 
 - name: 黄建初
@@ -24,7 +25,7 @@
   phone: 待补充
 
 - name: 程春雨
-  image: chchjj.png
+  image: chchy.png
   email: 建平实验中学教师
   phone: 待补充
 
@@ -32,4 +33,3 @@
   image: yhy.png
   email: 上海浦东教育发展研究院科研员
   phone: 待补充
-  
