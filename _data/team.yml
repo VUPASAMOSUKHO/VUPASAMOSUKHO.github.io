@@ -1,27 +1,34 @@
-- name: 陈静静
-  image: chjj.png
-  info: 东京大学访问学者
+- name: Britta Perry
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 黄建初
-  image: hjc.png
-  info: 东京大学访问学者
+- name: Troy Barnes 
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 郑朝晖
-  image: zhch.png
-  info: 东京大学访问学者
+- name: Annie
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 郑艳红
-  image: zhenyh.png
-  info: 东京大学访问学者
+- name: Jeff Winger
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 王晓叶
-  image: chjj.png
-  info: 东京大学访问学者
+- name: Britta Perry
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 程春雨
-  image: chjj.png
-  info: 东京大学访问学者
+- name: Troy Barnes
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
 
-- name: 杨海燕
-  image: chjj.png
-  info: 东京大学访问学者
+- name: Annie
+  image: team.jpg
+  email: email@gmail.com
+  phone: 9659 43 21
