@@ -1,54 +1,51 @@
 # Site settings
-title: 佐藤学学习共同体 | SLC IN CHINA
-description: "学习共同体理论研究与实践指导"
-baseurl: ""  # the subpath of your site, e.g. /blog
+title: DentistSmile | Dental Jekyll Theme
+description: "A responsive Jekyll theme for dental clinics."
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.ico
-keyword: "佐藤学, 学习共同体，School as learning community, Manabu Sato, 陈静静, 真爱梦想, 共同体, 静悄悄的革命, 教师花传书"
-
+logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: out.png
-    #hero.jpg
-    hero_title: 学习共同体联合会
-    hero_description: 学习共同体理论研究与实践指导
+    hero_img: hero.jpg
+    hero_title: DentistSmile
+    hero_description: A responsive Jekyll theme for dental clinics.
 
 # Contact form
-api_token: d6a8678c808d417816877bcf0837789c
+api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 157-527-98967
-    wechat: nuannuandetaiyanggua
-    email: chenjingjing201050@163.com
-    address: 上海市浦东教育发展研究院 <br> 浦东新区  上海市 <br> 200120
+    phone: 932 50 540
+    emergency: 931 53 234
+    email: contact@yoursite.com
+    address: Von schroeders 273, <br> Viña del mar - Chile
 
 # Opening hours
-monday_friday: 2017年7月2日-7月5日
-saturday: 上海市浦东新区世博家园实验小学（东书房路475号）
-sunday: 学习共同体领航教师暑期研究坊
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
 
 # Testimonials
 testimonials:
-    testimonials_img: parallax.png
+    testimonials_img: parallax.jpg
 
 # Map
 map:
     zoom: 17
-    address: No.385 Pusan Road, Pudong New District, Shanghai
-    address_details: svg/min/logo.ico
+    address: Von schroeders 273, Viña del mar, Chile
+    address_details: svg/min/logo.svg
 
 # Social settings
-#facebook: http://facebook.com
-#twitter: http://twitter.com
-#instagram: http://instagram.com
-youtube: https://www.youtube.com/watch?v=md7L0wrtVGA
-#skype: skype:obaez_design?userinfo
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2017 学习共同体联合会 - All rights reserved
+copyright: © 2015 DentistSmile - All rights reserved
 
 # Build settings
 markdown: kramdown
