@@ -234,32 +234,22 @@ layout: default
                 <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
                 <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
             </div>
-        </div></div></div></div>
-    
-        
-    
-        
-    
-
-    
+        </div></div></div></div>   
     <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
 </div>
 <!--End our team-->
 
 <!-- Start testimonials-->
 
-<div id="testimonials" class="testimonials parallax" style="background-image: url('.VUPASAMOSUKHO.github.io/img/{{ site.testimonials.testimonials_img }}')">
+
+<!-- Start Testimonials -->
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
-         <div id="testimonial-carousel" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-                
-              <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6420px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-1070px, 0px, 0px);">
-
+            <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
-                   <div class="owl-item" style="width: 1070px;">
                     <div class="testimonial-item">
-                
                         <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
                         <blockquote>
                             <p>{{ testimonial.description }}</p>
@@ -274,8 +264,7 @@ layout: default
         </div>
     </div>
 </div>
-
-<!-- End testimonials-- >
+<!-- End Testimonials -->
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
