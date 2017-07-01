@@ -1,0 +1,365 @@
+---
+layout: default
+---
+
+<!-- Start Hero -->
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="hero-content-inner">
+                <h1>{{ site.hero.hero_title }}</h1>
+                <p>{{ site.hero.hero_description }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>学习共同体100问</h3>
+            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="name" type="text" placeholder="姓名" required>
+                </div>
+                <div class="form-field">
+                    <input name="phone" type="tel" placeholder="电话" required>
+                </div>
+                <div class="form-field">
+                    <input name="email" type="email" placeholder="邮箱" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="comments" placeholder="有关学习共同体的任何问题，欢迎随时与我们联系。我们将选择有代表性的问题集中回答。" required></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="提问">
+            </form>
+        </div>
+
+    </div>
+</div>
+<!-- End Hero -->
+
+<!-- Start 3 columns -->
+<div class="three-shade-col">
+    <div class="col-sm-4">
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>关注我们</h3>
+        <table>
+          <body>
+              <tr>
+                  <td>联系电话：</td>
+                  <td>{{site.contact.phone}}</td>
+                  </tr>
+                  <tr>
+                  <td>微信帐号：</td>
+                  <td>{{site.contact.wechat}}</td>
+                  </tr>
+                  <tr>
+                  <td>联系邮箱：</td>
+                  <td>{{site.contact.email}}</td>    
+                  </tr>
+
+              </tr>
+          </body>
+</table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>最新活动</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>举办时间：</td>
+                    <td>{{ site.monday_friday }}</td>
+                </tr>
+                <tr>
+                    <td>举办地点：</td>
+                    <td>{{ site.saturday }}</td>
+                </tr>
+                <tr>
+                    <td>活动主题：</td>
+                    <td>{{ site.sunday }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>联系地址</h3>
+            <p>
+                {{ site.contact.address }}
+            </p>
+    </div>
+</div>
+<!-- End 3 columns -->
+
+<!-- Start About -->
+<div id="about" class="about">
+    <div class="container-fluid">
+        <h2 class="section-title">关于我们</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3><center>倾听儿童声音 促进课堂变革</center>></h3>
+                <p>构建学习共同体即构建学生共同合作学习的场所，教师作为教育的专家共同合作学习的场所，家长与市民共同合作学习的场所。
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>中国佐藤学学习共同体联合会开创于2008年，始终致力于推动佐藤学教授学习共同体理论在中国的发展、创新和实践。陈静静博士师从钟启泉、佐藤学教授，与上海市浦东教育发展研究院一批科研工作者以联合会为载体，长期进行着学习共同体的理论和实践探讨。
+</p>
+</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-trophy"><use xlink:href="#icon-trophy"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>学习共同体经历了100多年的研究历程,首倡者是教育研究大师杜威。其中历经了多年的不断完善。佐藤学教授经过40年的研究将其发扬光大，形成学校转型发展的系统性解决方案。其核心宗旨是：倾听儿童声音、提升学习品质、促进课堂变革、助推教师成长、提升办学品质、改善教育生态。
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>联合会通过与一线教师、学校共同体实践，不断促进儿童学习品质提升、儿童创新素养（创造力）的培育；推动以学习为中心、基于核心素养培育的课堂教学；倡导基于“课例研究”和儿童研究的教师专业成长；并协助学校基于学习共同体的提升办学。
+</p>
+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/about.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">研究成果</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+
+<!--Start our team-->
+<div id="team" class="team"> 
+    <h2 class="section-title">研究团队</h2> 
+    <div id="team-carousel" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+    
+       <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5040px; left: 0px; display: block; transition: all 600ms ease; transform: translate3d(-360px, 0px, 0px);"><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/chjj.png" alt="陈静静">
+                <h4>陈静静<br>东京大学访问学者<br>浦东教育发展研究院副研究员</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="chenjingjing201050@163.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="15752798967"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/hjc.png" alt="黄建初">
+                <h4>王晓叶<br>中学高级教师</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="语文名师工作坊带头人"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="？？？"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/zhch.png" alt="郑朝晖">
+                <h4>郑朝晖<br>建平中学集团副校长<br>语文特级教师</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="建平中学集团副校长"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="？？？"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/zhenyh.png" alt="郑艳红">
+                <h4>郑艳红<br>上海市班主任工作室带头人<br>中学高级教师</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="上海班主任工作坊带头人"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="上海大学语文？？"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/chjj.png" alt="陈静静">
+                <h4>程春雨<br></h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team/hjc.png" alt="黄建初">
+                <h4>黄建初<br>上海教育科研教师培训工作室<br>上海市特级教师</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div><div class="owl-item" style="width: 360px;"><div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/team.jpg" alt="杨海燕">
+                <h4>杨海燕<br>浦东教育发展研究院科研员<br>教育学硕士</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+            </div>
+        </div></div></div></div>
+    
+        
+    
+        
+    
+
+    
+    <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+</div>
+<!--End our team-->
+
+<!-- Start testimonials-->
+
+<div id="testimonials" class="testimonials parallax" style="background-image: url('.VUPASAMOSUKHO.github.io/img/{{ site.testimonials.testimonials_img }}')">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+         <div id="testimonial-carousel" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                
+              <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6420px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-1070px, 0px, 0px);">
+
+                {% for testimonial in site.data.testimonials %}
+                   <div class="owl-item" style="width: 1070px;">
+                    <div class="testimonial-item">
+                
+                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <blockquote>
+                            <p>{{ testimonial.description }}</p>
+                            <footer>
+                                {{ testimonial.name }}
+                                <small>{{ testimonial.title }}</small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End testimonials-- >
+
+<!-- Start Gallery -->
+<div id="gallery" class="gallery">
+        
+    <h2 class="section-title">活动展厅</h2>
+
+    
+        <a href="http://mp.weixin.qq.com/s/CmWidIhHcWyjtiH_KVbFsQ" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/1.jpg" alt="走在学习共同体的路上">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/aR81n9rrovtExpF4ctLKiw" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/2.jpg" alt="我们为什么选择学习共同体">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/RkUHo5U-aPJr_jP7fHK0bg" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/3.jpg" alt="学习共同体日记《水龙吟》">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/puccUscgpF0siFnmr-ir6w" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/4.jpg" alt="轻轻的润泽之堂">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/iuNO-1GeCMR7iV25O4DPgw" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/5.jpg" alt="佐藤学">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/YY_HMo9Gg7B13m91VL6hGA" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/6.jpg" alt="wen sheng">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/zr7yOkACXy8CfPBkyURjZw" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/7.jpg" alt="chjj-ms">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    
+        <a href="http://mp.weixin.qq.com/s/LvypKJFKlt6j9-XI94YtLg" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="./VUPASAMOSUKHO.github.io/img/gallery/thumb/8.jpg" alt="something meaningful">
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+</div>
+<!-- End Gallery -->
+
+
+<!-- Start Map -->
+<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!-- End Map -->
+
+
