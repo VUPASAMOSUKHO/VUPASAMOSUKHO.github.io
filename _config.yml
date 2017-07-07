@@ -64,5 +64,6 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
-google_verification:
+ga_track_id: 'UA-79014677-3'            # Format: UA-xxxxxx-xx
+ga_domain: slc.education
+
