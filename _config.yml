@@ -1,0 +1,68 @@
+# Site settings
+title: 学习共同体联合会 | SLC IN CHINA
+description: "学习共同体理论研究与实践指导"
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.png
+keyword: "佐藤学, 学习共同体，School as learning community, Manabu Sato, 陈静静, 真爱梦想, 共同体, 静悄悄的革命, 教师花传书"
+
+
+# Hero
+hero: 
+    hero_img: out.png
+    #hero.jpg
+    hero_title: 学习共同体联合会
+    hero_description: 学习共同体理论研究与实践指导
+
+# Contact form
+api_token: d6a8678c808d417816877bcf0837789c
+
+# Contact info
+contact:
+    phone: 157-527-98967（周一至周五：10:00-15:00）
+    wechat: nuannuandetaiyanggua
+    email: contact@slc.education
+    address: 上海市浦东教育发展研究院 <br> 浦东新区  上海市 <br> 200120
+
+# Opening hours
+monday_friday: 2017年8月19日-21日
+saturday: 上海浦东新区碧波路572弄116号梦想教室209
+sunday: 学习共同体云南教师培训
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.png
+
+# Map
+map:
+    zoom: 17
+    address: No.385 Pushan Road, Pudong New District, Shanghai
+    address_details: svg/min/logo.ico
+
+# Social settings
+#facebook: http://facebook.com
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+youtube: https://www.youtube.com/watch?v=md7L0wrtVGA
+#skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2017 学习共同体联合会 - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+
+
