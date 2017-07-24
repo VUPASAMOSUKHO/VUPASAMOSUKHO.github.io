@@ -1,6 +1,6 @@
 本库存放着 COS 主站的所有文章 Markdown 或 R Markdown 源文件。欢迎各位作者投稿，投稿指南参见 <https://cosx.org/contribute/>。
 
-## 编辑部注意事项
+## 编辑部注意事项1
 
 请首先参阅上面的投稿指南，在 R 里安装 blogdown 包。
 
