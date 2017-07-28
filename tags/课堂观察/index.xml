@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>课堂观察 on 学习共同体联合会</title>
+    <link>https://VUPASAMOSUKHO.github.io/tags/%E8%AF%BE%E5%A0%82%E8%A7%82%E5%AF%9F/</link>
+    <description>Recent content in 课堂观察 on 学习共同体联合会</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>@ 学习共同体联合会 版权所有 2006 - 2017</copyright>
+    <lastBuildDate>Fri, 19 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://VUPASAMOSUKHO.github.io/tags/%E8%AF%BE%E5%A0%82%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>学习共同体投稿指南</title>
+      <link>https://VUPASAMOSUKHO.github.io/contribute/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://VUPASAMOSUKHO.github.io/contribute/</guid>
+      <description>本站所有文章均由Markdown进行写作。如果您只习惯使用 Office，请将稿件以word形式+图片压缩包，通过邮件形式提交到：editor</description>
+    </item>
+    
+  </channel>
+</rss>
