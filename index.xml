@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>视频</title>
-      <link>https://VUPASAMOSUKHO.github.io/videos/</link>
-      <pubDate>Fri, 09 Aug 2013 14:20:50 +0000</pubDate>
-      
-      <guid>https://VUPASAMOSUKHO.github.io/videos/</guid>
-      <description>这里收集一些免费的视频供大家学习，欢迎任何个人、公司分享高质量的免费视频。主题与统计学、数据分析相关即可，比如统计学、机器学习等专业课程的视</description>
-    </item>
-    
-    <item>
       <title>培训指导</title>
       <link>https://VUPASAMOSUKHO.github.io/training/</link>
       <pubDate>Tue, 09 Apr 2013 10:50:47 +0000</pubDate>
@@ -50,10 +41,10 @@
     
     <item>
       <title>专辑</title>
-      <link>https://VUPASAMOSUKHO.github.io/search/</link>
+      <link>https://VUPASAMOSUKHO.github.io/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://VUPASAMOSUKHO.github.io/search/</guid>
+      <guid>https://VUPASAMOSUKHO.github.io/video/</guid>
       <description>本页面陆续汇总佐藤学教授及诸位专家在全球各地之演讲，以期不断深入了解学习共同体之根本精神与内涵。部分视频按分享规则迁移自Youtube，如有</description>
     </item>
     
