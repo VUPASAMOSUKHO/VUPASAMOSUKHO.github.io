@@ -49,12 +49,12 @@
     </item>
     
     <item>
-      <title>搜索</title>
+      <title>专辑</title>
       <link>https://VUPASAMOSUKHO.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://VUPASAMOSUKHO.github.io/search/</guid>
-      <description>.input-group { display: flex; } .ais-search-box { width: 100%; flex: 1; } .form-control { width: 100%; flex: 1; height: 2rem; } .input-group-btn button { height: 100%; width: 60px; margin-left: 10px; } 搜索</description>
+      <description>本页面陆续汇总佐藤学教授及诸位专家在全球各地之演讲，以期不断深入了解学习共同体之根本精神与内涵。部分视频按分享规则迁移自Youtube，如有</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@
     </item>
     
     <item>
-      <title>学习共同体成员介绍</title>
+      <title>学习共同体作者介绍</title>
       <link>https://VUPASAMOSUKHO.github.io/members/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
